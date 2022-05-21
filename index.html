@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css55d0.css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css5d2a.css?family=Lato" rel="stylesheet" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="#myPage">Team 135</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#services">SERVICES</a></li>
+                        <li><a href="#categories">CATEGORIES</a></li>
+                        <li><a href="#sign-in">SIGN IN</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    
+        <div class="jumbotron text-center">
+            <h1>Seedly Agro TECH</h1>
+            <p>Invest with seedly now and lets build wealth together</p>
+        </div>
+    
+        <!-- Container (Sign in Section) -->
+        <div id="sign-in" class="container-fluid">
+            <div class="text-center">
+                <h2>Sign In</h2>
+                <h4>Register to get started</h4>
+            </div>
+    <div class="row slideanim">
+        <div class="col-sm-12 col-xs-12">
+            <div class="panel panel-default text-center">
+                <div class="panel-body">
+                <div class="cotainer">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8">
+                            <div class="card">
+                                <div class="card-body">
+                                    <form name="my-form" onsubmit="return validform()" action="success.php" method="">
+                                        <div class="form-group row">
+                                            <label for="email_address" class="col-md-4 col-form-label text-md-right">E-Mail Address</label>
+                                            <div class="col-md-6">
+                                                <input type="text" id="email_address" class="form-control" name="email-address">
+                                            </div>
+                                        </div>
+    
+                                        <div class="form-group row">
+                                            <label for="user_name" class="col-md-4 col-form-label text-md-right">User Name</label>
+                                            <div class="col-md-6">
+                                                <input type="text" id="user_name" class="form-control" name="username">
+                                            </div>
+                                        </div>
+    
+                                        <div class="form-group row">
+                                            <label for="phone_number" class="col-md-4 col-form-label text-md-right">Phone Number</label>
+                                            <div class="col-md-6">
+                                                <input type="text" id="phone_number" class="form-control" name="phone-num">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="Password" class="col-md-4 col-form-label text-md-right">Password</label>
+                                            <div class="col-md-6">
+                                            <input type="password"  class="form-control" id="present_address" name="pswd">
+                                                <i class="fa fa-home"></i>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="confirm_password" class="col-md-4 col-form-label text-md-right">Confirm Password</label>
+                                            <div class="col-md-6">
+                                            <input type="password" class="form-control" id="permanent_address" name="confirm-pswd">
+                                            </div>
+                                                <i class="far fa-home"></i>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="gender" class="col-md-4 col-form-label text-md-right">Gender</label>
+                                            <div class="col-md-6">
+                                                <select name="" id="" class="form-control">
+                                                    <option value="" disabled="" selected="">Gender</option>
+                                                    <option value="male">Male</option>
+                                                    <option value="femal">Female</option>
+                                                    <option value="other">Other</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                         <div class="col-md-10 offset-md-4">
+                                            <button type="submit" class="btn btn-primary">Register</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                        
+            </div>
+        </div>
+    </div>
+    
+        <footer class="container-fluid text-center">
+            <a href="#myPage" title="To Top">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+            </a>
+            <p> &copy;Team 135 <a href="#" title="Visit Team 135">www.team135.com</a></p>
+        </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
